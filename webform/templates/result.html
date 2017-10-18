@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+{% block title %}Applicant Form - result {% endblock %}
+
+{% block content %}
+<h1>Applicant Form - result</h1>
+
+<h3>You have submitted</h3>
+
+<ul>
+  <li>
+    {{form.your_name.label_tag}}
+    {{form.your_name.value}}
+  </li>
+  <li>
+    {{form.test_name.label_tag}}
+    {{form.test_name.value}}
+  </li>
+  <li>
+    {{form.start_date.label_tag}}
+    {{form.start_date.value}}
+  </li>
+  <li>
+    {{form.message.label_tag}}
+    {{form.message.value}}
+  </li>
+  <li>
+    {{form.tickbox.label_tag}}
+    {{form.tickbox.value}}
+  </li>
+</ul>
+
+{% endblock %}

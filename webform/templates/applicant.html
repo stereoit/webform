@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+
+{% block title %}Applicant Form{% endblock %}
+
+{% block content %}
+<h1>Applicant Form</h1>
+<p>
+Please fill out those details, they will be redisplayed on successful submission. Kindly note, if you fill name as `joe`, you will get `black` in return. You can use this as regression test.
+</p>
+
+<form  method="post">
+    {% csrf_token %}
+    {{ form|bootstrap }}
+    <input type="submit" value="Submit" />
+</form>
+
+
+{% endblock %}
