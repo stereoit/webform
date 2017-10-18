@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Webform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-18 23:44+0200\n"
+"PO-Revision-Date: 2017-10-18 23:34+0200\n"
+"Last-Translator: robert smol\n"
+"Language-Team: Czech (Czech Republic)\n"
+"Language: cs-CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en\n"
+"X-Loco-Project-Id: 32425\n"
+"X-Loco-Api-Version: 1.0.18 20171009-1\n"
+
+#: forms.py:6
+msgid "your name"
+msgstr "Vaše jméno"
+
+#: forms.py:7
+msgid "applicantform.your_name.help_text"
+msgstr "Zadejte Vaše nebo jakékoliv jméno"
+
+#: forms.py:12
+msgid "test field"
+msgstr "Testovací pole"
+
+#: forms.py:15
+msgid ""
+"Value = `dan` => invalid ValidationError, anything else is just passed "
+"through"
+msgstr "Hodnota 'dan' způsobí validační chybu, cokoli jiného se propíše"
+
+#: forms.py:18
+msgid "possible join date"
+msgstr "Možný den nástupu"
+
+#: forms.py:25
+msgid "message"
+msgstr "Zpráva"
+
+#: forms.py:30
+msgid "tickbox"
+msgstr ""
+
+#: forms.py:32
+msgid "This is a sample tick box."
+msgstr ""
+
+#: templates/applicant.html:8
+msgid "Applicant Form"
+msgstr ""
+
+#: templates/applicant.html:10
+msgid ""
+"\n"
+"Please fill out those details, they will be redisplayed on successful "
+"submission. Kindly note, if you fill name as `joe`, you will get `black` in "
+"return. You can use this as regression test.\n"
+msgstr ""
+"\n"
+"Prosím vyplňte tyto údaje, po úspešném odeslání Vám je opět zobrazíme pro "
+"případnou kontrolu. Poznámka: Pokud vyplníte testovací pole hodnotou \"dan"
+"\", nastane validační chyba. Můžete toho využít pro regresní testování.\n"
+
+#: templates/base.html:21
+msgid "Welcome to our page"
+msgstr ""

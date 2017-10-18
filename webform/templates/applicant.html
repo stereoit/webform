@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 {% load bootstrap %}
+{% load i18n %}
 
 {% block title %}Applicant Form{% endblock %}
 
 {% block content %}
-<h1>Applicant Form</h1>
+<h1>{% trans "Applicant Form" %}</h1>
 <p>
+{% blocktrans %}
 Please fill out those details, they will be redisplayed on successful submission. Kindly note, if you fill name as `joe`, you will get `black` in return. You can use this as regression test.
+{% endblocktrans %}
 </p>
 
 <form  method="post">
