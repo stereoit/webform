@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simple Webform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-19 00:29+0200\n"
-"PO-Revision-Date: 2017-10-18 23:34+0200\n"
+"POT-Creation-Date: 2017-10-19 10:00+0200\n"
+"PO-Revision-Date: 2017-10-19 08:59+0100\n"
 "Last-Translator: robert smol\n"
 "Language-Team: Czech (Czech Republic)\n"
 "Language: cs-CZ\n"
@@ -15,11 +15,12 @@ msgstr ""
 "X-Generator: Loco https://localise.biz\n"
 "X-Loco-Source-Locale: en\n"
 "X-Loco-Project-Id: 32425\n"
+"X-Loco-Lookup: id\n"
 "X-Loco-Api-Version: 1.0.18 20171009-1\n"
 
 #: forms.py:6
 msgid "your name"
-msgstr "Vaše jméno"
+msgstr "Vaše jméno2"
 
 #: forms.py:7
 msgid "applicantform.your_name.help_text"
@@ -49,11 +50,11 @@ msgstr ""
 
 #: forms.py:32
 msgid "This is a sample tick box."
-msgstr ""
+msgstr "Testovací tick box"
 
 #: templates/applicant.html:8
 msgid "Applicant Form"
-msgstr ""
+msgstr "Přihlašovací formulář"
 
 #: templates/applicant.html:10
 msgid ""
@@ -74,3 +75,29 @@ msgstr ""
 #: templates/javascript.html:13
 msgid "Dynamic javascript test"
 msgstr "Test překladu v Javascriptu"
+
+#: templates/result.html:7
+msgid "Applicant Form - result"
+msgstr "Přihlašovací formulář - výsledky"
+
+#~ msgid "your-name"
+#~ msgstr "Vaše jméno"
+
+#~ msgid "applicantform-your-name-help-text"
+#~ msgstr "Zadejte Vaše nebo jakékoliv jméno"
+
+#~ msgid "test-field"
+#~ msgstr "Testovací pole"
+
+#~ msgid "Value-dan-invalid-ValidationError-anything-else-is"
+#~ msgstr "Hodnota 'dan' způsobí validační chybu, cokoli jiného se propíše"
+
+#~ msgid "possible-join-date"
+#~ msgstr "Možný den nástupu"
+
+#~ msgid "Please-fill-out-those-details-they-will-be-redispl"
+#~ msgstr ""
+#~ "\n"
+#~ "Prosím vyplňte tyto údaje, po úspešném odeslání Vám je opět zobrazíme pro "
+#~ "případnou kontrolu. Poznámka: Pokud vyplníte testovací pole hodnotou \"dan"
+#~ "\", nastane validační chyba. Můžete toho využít pro regresní testování.\n"

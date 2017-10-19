@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-19 00:29+0200\n"
+"POT-Creation-Date: 2017-10-19 10:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,4 +69,8 @@ msgstr ""
 
 #: templates/javascript.html:13
 msgid "Dynamic javascript test"
+msgstr ""
+
+#: templates/result.html:7
+msgid "Applicant Form - result"
 msgstr ""
