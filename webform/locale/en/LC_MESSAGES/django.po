@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-18 23:13+0200\n"
+"POT-Creation-Date: 2017-10-19 00:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,10 @@ msgstr ""
 msgid "This is a sample tick box."
 msgstr ""
 
+#: templates/applicant.html:8
+msgid "Applicant Form"
+msgstr ""
+
 #: templates/applicant.html:10
 msgid ""
 "\n"
@@ -59,6 +63,10 @@ msgid ""
 "return. You can use this as regression test.\n"
 msgstr ""
 
-#: templates/base.html:21 templates/base.html:26
+#: templates/base.html:22
 msgid "Welcome to our page"
+msgstr ""
+
+#: templates/javascript.html:13
+msgid "Dynamic javascript test"
 msgstr ""

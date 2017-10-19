@@ -21,3 +21,6 @@ def process_form(request):
             return HttpResponseRedirect('/result')
     else:
         return HttpResponseRedirect('/result')
+
+def get_javascript(request):
+    return render(request, "javascript.html")

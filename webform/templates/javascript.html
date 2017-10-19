@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}Applicant Form{% endblock %}
+{% block head %}
+<script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+<script type="text/javascript" src="{% static "webform/hello.js" %}"></script>
+{% endblock %}
+
+
+{% block content %}
+<h1>{% trans "Dynamic javascript test" %}</h1>
+<p id="translated-text"></p>
+{% endblock %}

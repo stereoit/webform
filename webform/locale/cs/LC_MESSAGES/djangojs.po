@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Webform JS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-19 08:50+0200\n"
+"PO-Revision-Date: 2017-10-19 08:53+0200\n"
+"Last-Translator: robert smol\n"
+"Language-Team: \n"
+"Language: cs-CZ\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: cs-CZ\n"
+"X-Loco-Project-Id: 32448\n"
+"X-Loco-Lookup: id\n"
+"X-Loco-Api-Version: 1.0.18 20171009-1"
+
+#. Source text: Vítejte na této stránce.
+#: loco:59e84b5ac430fe7f568b4567
+msgid "welcomesite"
+msgstr "Vítejte na této stránce."
