@@ -58,6 +58,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'django.middleware.http.ConditionalGetMiddleware'
 )
 
 ROOT_URLCONF = 'project.urls'
